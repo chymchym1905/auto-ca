@@ -1,0 +1,189 @@
+{
+  "team_toggle": {
+    "file": "team_toggle.png",
+    "src_h": 720,
+    "region": [
+      0.9574,
+      0.175,
+      0.0426,
+      0.1389
+    ],
+    "threshold": 0.85
+  },
+  "priority_entry": {
+    "file": "priority_entry.png",
+    "src_h": 720,
+    "region": [
+      0.8375,
+      0.0,
+      0.1019,
+      0.1333
+    ],
+    "threshold": 0.8
+  },
+  "arena_tile": {
+    "file": "arena_tile.png",
+    "src_h": 720,
+    "region": [
+      0.5764,
+      0.0194,
+      0.4236,
+      0.6111
+    ],
+    "threshold": 0.8
+  },
+  "team_lobby_tab": {
+    "file": "team_lobby_tab.png",
+    "src_h": 720,
+    "region": [
+      0.3009,
+      0.0,
+      0.2333,
+      0.1389
+    ],
+    "threshold": 0.8
+  },
+  "priority_entry#2": {
+    "file": "priority_entry#2.png",
+    "src_h": 720,
+    "region": [
+      0.8407,
+      0.0,
+      0.0926,
+      0.1111
+    ],
+    "threshold": 0.8
+  },
+  "priority_entry#3": {
+    "file": "priority_entry#3.png",
+    "src_h": 720,
+    "region": [
+      0.8454,
+      0.0,
+      0.0852,
+      0.1222
+    ],
+    "threshold": 0.8
+  },
+  "arena_ca_selected": {
+    "file": "arena_ca_selected.png",
+    "src_h": 720,
+    "region": [
+      0.0,
+      0.2528,
+      0.5926,
+      0.2722
+    ],
+    "threshold": 0.8
+  },
+  "ca_leave": {
+    "file": "ca_leave.png",
+    "src_h": 720,
+    "region": [
+      0.0,
+      0.0,
+      0.0833,
+      0.0917
+    ],
+    "threshold": 0.8
+  },
+  "overworld_marker": {
+    "file": "overworld_marker.png",
+    "src_h": 720,
+    "region": [
+      0.7157,
+      0.0,
+      0.0778,
+      0.1083
+    ],
+    "threshold": 0.8
+  },
+  "overworld_marker#2": {
+    "file": "overworld_marker#2.png",
+    "src_h": 960,
+    "region": [
+      0.7605,
+      0.0,
+      0.0828,
+      0.1021
+    ],
+    "threshold": 0.8
+  },
+  "priority_entry#4": {
+    "file": "priority_entry#4.png",
+    "src_h": 720,
+    "region": [
+      0.8468,
+      0.0,
+      0.087,
+      0.1222
+    ],
+    "threshold": 0.8
+  },
+  "priority_challenge_tab": {
+    "file": "priority_challenge_tab.png",
+    "src_h": 720,
+    "region": [
+      0.0,
+      0.5,
+      0.1426,
+      0.1778
+    ],
+    "threshold": 0.8
+  },
+  "priority_challenge_tab#2": {
+    "file": "priority_challenge_tab#2.png",
+    "src_h": 720,
+    "region": [
+      0.0,
+      0.491,
+      0.1519,
+      0.1861
+    ],
+    "threshold": 0.8
+  },
+  "priority_challenge_tab#3": {
+    "file": "priority_challenge_tab#3.png",
+    "src_h": 720,
+    "region": [
+      0.0,
+      0.5125,
+      0.1426,
+      0.1667
+    ],
+    "threshold": 0.8
+  },
+  "team_toggle#3": {
+    "file": "team_toggle#3.png",
+    "src_h": 720,
+    "region": [
+      0.9579,
+      0.1583,
+      0.0421,
+      0.1722
+    ],
+    "threshold": 0.8
+  },
+  "team_toggle#4": {
+    "file": "team_toggle#4.png",
+    "src_h": 720,
+    "region": [
+      0.9481,
+      0.1903,
+      0.0519,
+      0.1111
+    ],
+    "threshold": 0.8
+  },
+  "team_toggle#5": {
+    "file": "team_toggle#5.png",
+    "src_h": 720,
+    "region": [
+      0.962,
+      0.1569,
+      0.038,
+      0.1778
+    ],
+    "threshold": 0.8
+  }
+}

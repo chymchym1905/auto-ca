@@ -1,0 +1,8 @@
+PyQt6==6.11.0
+pywin32==312
+mss==10.2.0
+Pillow==12.2.0
+winsdk==1.0.0b10
+PyDirectInput==1.0.4
+opencv-python==4.13.0.92
+numpy==2.4.6
