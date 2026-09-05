@@ -232,7 +232,7 @@ Requires Windows and Python 3.12.
 ```bat
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.txt
-.venv\Scripts\python.exe main.py          REM run from source
+.venv\Scripts\python.exe main.py
 ```
 
 To produce the exe (needs `pip install pyinstaller`):
