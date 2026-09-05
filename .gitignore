@@ -12,3 +12,5 @@ build/
 dist/
 *.spec.bak
 selftest.txt
+
+ToF-Auto-CA-v1.0.zip

@@ -17,6 +17,7 @@ is what makes them persist. ``replays\\`` is created by the app on first dump.
 
 from __future__ import annotations
 
+import json
 import shutil
 import subprocess
 import sys
@@ -48,15 +49,23 @@ def stage_runtime_files() -> None:
     else:
         print('  ! no templates/ directory — capture icons with F8 after launch')
 
-    config_src, config_dst = ROOT / 'config.json', DIST / 'config.json'
+    config_dst = DIST / 'config.json'
     if config_dst.exists():
         # Never clobber a config the packaged app has already been using.
         print(f'  config.json already present at {config_dst}; left alone')
-    elif config_src.is_file():
-        shutil.copy2(config_src, config_dst)
-        print(f'  config.json -> {config_dst}')
     else:
-        print('  no config.json to seed — the app writes one on first capture')
+        # Seed a *blank* config rather than copying the dev one: the exe is meant
+        # to be shipped, and the dev config carries real in-game usernames and
+        # stale PIDs. The app fills it in on the first capture.
+        starter = {
+            'roles': {r: {'username': '', 'window_title_hint': 'Tower of Fantasy',
+                          'pid': None}
+                      for r in ('mainhost', 'main', 'althost')},
+            'points': {},
+            'regions': {},
+        }
+        config_dst.write_text(json.dumps(starter, indent=2), encoding='utf-8')
+        print(f'  config.json -> {config_dst} (blank starter)')
 
 
 def main() -> int:
