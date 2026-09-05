@@ -35,8 +35,6 @@ Windows) and by matching a handful of small icon images you capture yourself.
 Usernames and window process ids are remembered, so subsequent launches go
 straight to the control panel — no re-binding unless a client was restarted.
 
-Full setup, icon capture and troubleshooting: see the [README](README.md).
-
 ---
 
 ## Download
